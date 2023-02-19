@@ -1,0 +1,87 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #313338;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+.chat-link{
+    display: flex;
+    background-color: #2b2d31;
+    width: 100%;
+}
+.bot-rsp{
+	background-color: #ffffff;
+	display: inline-block;
+	margin: 10px;
+	padding: 13px ;
+	border-radius: 30px;
+}
+.client-rqst{
+	background-color: #edd7ba;
+	margin: 10px;
+	padding: 13px ;
+	border-radius: 30px;
+	float: right;
+}
+.vertical{
+	display: block;
+}
+.vertical-cl{
+	float: right;
+	display: block;
+	width: 100%;
+}
+.msg-text{
+    margin-bottom: 0px;
+}
+.nav-bar{
+    display: flex;
+    position: fixed;
+    height: 10%;
+    width: 100%;
+    background-color: #2b2d31;
+}
+.msg-box{
+    height: 90%;
+    padding-top: 64px;
+}
+.chat-main{
+    width: 30%;
+    display: block;
+}
+.chat-main:hover .chat-link{
+    background-color: #36373d;
+}
+.pfp-round{
+    border-radius: 50%;
+    width: 50px;
+    margin: 10px;
+}
+.pfp-round-nav{
+    border-radius: 50%;
+    width: auto;
+    margin: 10px;
+}
+.nav-text{
+    padding-top: 15px;
+}
+.name-box{
+    margin: 10px;
+}
+.username{
+    color: #8a8c94;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a :active{
+    text-decoration: none;
+}
+a :hover{
+    text-decoration: none;
+}
+a :visited{
+    text-decoration: none;
+}
